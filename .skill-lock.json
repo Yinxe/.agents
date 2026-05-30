@@ -136,7 +136,7 @@
       "skillPath": "skills/cloudflare-email-service/SKILL.md",
       "skillFolderHash": "af7bd16246149247d4b699382d951dc376491bac",
       "installedAt": "2026-05-15T11:00:49.004Z",
-      "updatedAt": "2026-05-15T11:00:49.004Z"
+      "updatedAt": "2026-05-19T16:12:14.214Z"
     },
     "durable-objects": {
       "source": "cloudflare/skills",
@@ -145,7 +145,7 @@
       "skillPath": "skills/durable-objects/SKILL.md",
       "skillFolderHash": "72810f48414f2e68d0aa65a8895f749c959dea91",
       "installedAt": "2026-05-15T11:00:49.008Z",
-      "updatedAt": "2026-05-15T11:00:49.008Z"
+      "updatedAt": "2026-05-19T16:12:14.216Z"
     },
     "workers-best-practices": {
       "source": "cloudflare/skills",
@@ -154,7 +154,134 @@
       "skillPath": "skills/workers-best-practices/SKILL.md",
       "skillFolderHash": "7dd384e79c76d3e388dfe53e12e93642679ff1fd",
       "installedAt": "2026-05-15T11:00:49.018Z",
-      "updatedAt": "2026-05-15T11:00:49.018Z"
+      "updatedAt": "2026-05-19T16:12:14.220Z"
+    },
+    "ascii-diagram": {
+      "source": "lwlee2608/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/lwlee2608/agent-skills.git",
+      "skillPath": "skills/ascii-diagram/SKILL.md",
+      "skillFolderHash": "cc15a1900d19de2146c5a53c5928889e41f1b919",
+      "installedAt": "2026-05-17T05:08:59.588Z",
+      "updatedAt": "2026-05-17T05:08:59.588Z"
+    },
+    "agents-sdk": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/agents-sdk/SKILL.md",
+      "skillFolderHash": "fe7c98385541543a62abf65090654fcbc181c8b7",
+      "installedAt": "2026-05-19T16:12:14.202Z",
+      "updatedAt": "2026-05-19T16:12:14.202Z"
+    },
+    "cloudflare": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/cloudflare/SKILL.md",
+      "skillFolderHash": "451766442941fd2cffea9fa20559dafbcf0ef60e",
+      "installedAt": "2026-05-19T16:12:14.204Z",
+      "updatedAt": "2026-05-19T16:12:14.204Z"
+    },
+    "sandbox-sdk": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/sandbox-sdk/SKILL.md",
+      "skillFolderHash": "4d90eab74b6f49050c92b95ba635bc99c41671e9",
+      "installedAt": "2026-05-19T16:12:14.217Z",
+      "updatedAt": "2026-05-19T16:12:14.217Z"
+    },
+    "web-perf": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/web-perf/SKILL.md",
+      "skillFolderHash": "e8e8c50ca6abf0849a4d9d69c1bed8b98b5d7411",
+      "installedAt": "2026-05-19T16:12:14.219Z",
+      "updatedAt": "2026-05-19T16:12:14.219Z"
+    },
+    "wrangler": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/wrangler/SKILL.md",
+      "skillFolderHash": "45cc198b2aad3f06e8abf91333f55fbe7579f659",
+      "installedAt": "2026-05-19T16:12:14.221Z",
+      "updatedAt": "2026-05-19T16:12:14.221Z"
+    },
+    "vueuse": {
+      "source": "onmax/nuxt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/onmax/nuxt-skills.git",
+      "skillPath": "skills/vueuse/SKILL.md",
+      "skillFolderHash": "24f56cb5f584f1df2fc499a96294e836b937c6dc",
+      "installedAt": "2026-05-19T17:34:17.710Z",
+      "updatedAt": "2026-05-19T17:34:17.710Z"
+    },
+    "d1-drizzle-schema": {
+      "source": "jezweb/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jezweb/claude-skills.git",
+      "skillPath": "plugins/cloudflare/skills/d1-drizzle-schema/SKILL.md",
+      "skillFolderHash": "4f2f0a619c56079d1172026054746676a2b774ee",
+      "installedAt": "2026-05-19T17:45:48.022Z",
+      "updatedAt": "2026-05-19T17:45:48.022Z"
+    },
+    "drizzle-orm-d1": {
+      "source": "ovachiever/droid-tings",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/ovachiever/droid-tings.git",
+      "skillPath": "skills/drizzle-orm-d1/SKILL.md",
+      "skillFolderHash": "7963b7b6317cf332aef3f166b8f9c0e64c40ea4b",
+      "installedAt": "2026-05-19T17:46:17.713Z",
+      "updatedAt": "2026-05-19T17:46:17.713Z"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "skillFolderHash": "3116f3e62dbd02b44a598b1aa690d2a8938e8f89",
+      "installedAt": "2026-05-19T17:48:14.255Z",
+      "updatedAt": "2026-05-19T17:48:14.255Z"
+    },
+    "responsive-design": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/ui-design/skills/responsive-design/SKILL.md",
+      "skillFolderHash": "498899bd09bd4b39a9cd4b31b4d087e5a3fbac86",
+      "installedAt": "2026-05-19T17:51:31.278Z",
+      "updatedAt": "2026-05-19T17:51:31.278Z"
+    },
+    "color-palette": {
+      "source": "jezweb/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jezweb/claude-skills.git",
+      "skillPath": "plugins/design-assets/skills/color-palette/SKILL.md",
+      "skillFolderHash": "eaf370cdec086a619ed1c2cb91d6034164bddc10",
+      "installedAt": "2026-05-19T17:52:14.157Z",
+      "updatedAt": "2026-05-19T17:52:14.157Z"
+    },
+    "SVG Logo Designer": {
+      "source": "rknall/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/rknall/claude-skills.git",
+      "skillPath": "svg-logo-designer/SKILL.md",
+      "skillFolderHash": "d32ceba96946d695a40d7be78cc144d8ee7a6ac5",
+      "installedAt": "2026-05-19T17:53:09.496Z",
+      "updatedAt": "2026-05-19T17:53:09.496Z"
+    },
+    "prototype": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/prototype/SKILL.md",
+      "skillFolderHash": "c91bdc5d02d42ed88a3082a8fa83338895b55bd4",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-05-22T12:47:15.673Z",
+      "updatedAt": "2026-05-22T12:47:15.673Z"
     }
   },
   "dismissed": {

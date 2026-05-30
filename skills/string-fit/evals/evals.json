@@ -1,0 +1,23 @@
+{
+  "skill_name": "string-fit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我扫描 src/ 目录下的所有 TypeScript 和 React 文件，提取需要翻译的 UI 字符串，并翻译成中文(zh)和日文(ja)。源码路径是 /home/yinxin/project/xbff/src/",
+      "expected_output": "在 /home/yinxin/project/xbff/src/string.fit/ 目录下生成完整的翻译 JSON 文件，包含提取的 UI 字符串及其位置信息，以及中文和日文翻译。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我有一个 Python 项目，目录在 /home/yinxin/project/xbff/src/apps/，里面有很多面向用户的提示文字、表单标签、按钮文字等。请帮我把这些字符串提取出来，翻译成中文、韩文和法文。",
+      "expected_output": "在 /home/yinxin/project/xbff/src/apps/string.fit/ 目录下生成翻译文件，包含 Python 源码中的 UI 字符串及中、韩、法三种语言翻译。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "这个 NestJS 项目里有很多硬编码的英文字符串需要做多语言支持。请扫描整个 src/ 目录，找出所有需要翻译的字符串，记录它们的位置，然后翻译成 zh, ja, ko, fr, de, es 六种语言。",
+      "expected_output": "生成 string.fit/final.json，包含所有 UI 字符串的源码位置信息和六种语言的翻译。",
+      "files": []
+    }
+  ]
+}
